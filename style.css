@@ -77,6 +77,7 @@ input::-ms-input-placeholder{
     text-align: center;
     padding-left: 0;
     text-decoration: line-through;
+    color: aliceblue;
 }
 li{
     width:450px;
@@ -111,9 +112,9 @@ button:hover{
     color: aliceblue;
     font-size: 20px;
     font-weight: bold;
-}
-.doneTodo{
-    text-decoration: line-through;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
 }
 .form,
 .greetings{
